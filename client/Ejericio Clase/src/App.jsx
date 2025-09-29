@@ -1,10 +1,16 @@
-import { useState } from 'react'
 import './App.css'
+import UserCard from './components/UserCard.jsx'
 
 function App() {
   return (
     <>
-    <h1>Hola</h1>
+    <UserCard
+    name="Juan Pérez"
+    email="juanperez@example.com"
+    age={28}
+    isOnline={true}
+    />
+
       
     </>
   )
