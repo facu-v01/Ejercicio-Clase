@@ -1,0 +1,18 @@
+.task-list ul {
+    list-style: none;
+    padding: 0;
+    }
+
+    .task-list li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    }
+
+    .completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+    }
+
+    .checkbox {
+    margin-right: 10px;
+}
