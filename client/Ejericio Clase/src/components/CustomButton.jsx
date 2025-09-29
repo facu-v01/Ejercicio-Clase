@@ -1,4 +1,4 @@
-import './CustomButton.css';
+import '../components/css/CustomButton.css';
 
 function CustomButton({ btnText, variant, size, disabled, onClick }) {
   const classes = `btn btn-${variant} btn-${size} ${disabled ? 'disabled' : ''}`;

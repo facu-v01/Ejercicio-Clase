@@ -7,6 +7,9 @@ import { Producto } from './components/Producto.jsx';
 function App() {
   return (
     <>
+    <h1>Actividad Grupal</h1>
+    
+    <h2>User Card</h2>
     <UserCard
       name="Juan Pérez"
       email="juanperez@example.com"
@@ -14,6 +17,7 @@ function App() {
       isOnline={true}
     />
     
+    <h2>Custom Button</h2>
     <CustomButton
       btnText="Click Me"
       variant="primary"
@@ -21,6 +25,7 @@ function App() {
       onClick={() => alert('Button clicked!')}
     />
 
+    <h2>Producto</h2>
     <Producto 
       name="Mesa de Pino"
       price={25000}
