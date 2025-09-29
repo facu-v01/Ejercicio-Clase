@@ -1,3 +1,5 @@
+//Producto.jsx
+
 export function Producto({ name, price, discount=0, category }) {
 
     const precioConDescuento = price*(1-discount/100)
