@@ -1,7 +1,7 @@
 import './App.css'
 import UserCard from './components/UserCard.jsx'
 import CustomButton from './components/CustomButton';
-import { Producto } from './components/Producto.jsx';
+import Producto from './components/Producto.jsx';
 
 
 function App() {
