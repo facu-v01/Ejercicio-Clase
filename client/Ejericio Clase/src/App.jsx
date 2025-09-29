@@ -13,6 +13,13 @@ function App() {
       age={28}
       isOnline={true}
     />
+    
+    <CustomButton
+    btnText="Click Me"
+    variant="primary"
+    size="medium"
+    onClick={() => alert('Button clicked!')}
+    />
 
     <Producto 
       name="Mesa de Pino"
