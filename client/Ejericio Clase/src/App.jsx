@@ -15,10 +15,10 @@ function App() {
     />
     
     <CustomButton
-    btnText="Click Me"
-    variant="primary"
-    size="medium"
-    onClick={() => alert('Button clicked!')}
+      btnText="Click Me"
+      variant="primary"
+      size="medium"
+      onClick={() => alert('Button clicked!')}
     />
 
     <Producto 
