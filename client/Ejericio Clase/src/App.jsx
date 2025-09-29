@@ -1,6 +1,9 @@
 import './App.css'
-import UserCard from './components/UserCard.jsx'
-import TaskList from './components/TaskList.jsx'
+import UserCard from "../src/components/UserCard.jsx";
+import CustomButton from '../src/components/CustomButton.jsx';
+import TaskList from '../src/components/TaskList.jsx'
+import { Producto } from '../src/components/Producto.jsx';
+
 
 function App() {
   const tasks = [
@@ -24,10 +27,25 @@ function App() {
       <TaskList tasks={tasks} />
     </div>
     
-    
-    
-    
+    <CustomButton
+      btnText="Click Me"
+      variant="primary"
+      size="medium"
+      onClick={() => alert('Button clicked!')}
+    />
 
+    <Producto 
+      name="Mesa de Pino"
+      price={25000}
+      category="Muebles de Comedor"
+    />
+
+    <Producto 
+      name="Sillón"
+      price={30000}
+      discount={25}
+      category="Muebles de Comedor"
+    />
       
     </>
   )

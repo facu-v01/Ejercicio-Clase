@@ -1,0 +1,38 @@
+/* Ejercicio 4 */
+.btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+.btn-secondary {
+  background: #6c757d;
+  color: white;
+}
+.btn-danger {
+  background: #dc3545;
+  color: white;
+}
+
+.btn-small {
+  padding: 4px 8px;
+  font-size: 0.8em;
+}
+.btn-medium {
+  padding: 8px 16px;
+}
+.btn-large {
+  padding: 12px 24px;
+  font-size: 1.1em;
+}
+
+.btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
