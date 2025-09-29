@@ -1,8 +1,14 @@
 import './App.css'
+<<<<<<< HEAD
 import UserCard from "../src/components/UserCard.jsx";
 import CustomButton from '../src/components/CustomButton.jsx';
 import TaskList from '../src/components/TaskList.jsx'
 import { Producto } from '../src/components/Producto.jsx';
+=======
+import UserCard from './components/UserCard.jsx'
+import CustomButton from './components/CustomButton';
+import Producto from './components/Producto.jsx';
+>>>>>>> 6dd5efe84bc7518c00c334b230996bd7e2f42e26
 
 
 function App() {
@@ -14,7 +20,13 @@ function App() {
   ];
   return (
     <>
+<<<<<<< HEAD
     <div>
+=======
+    <h1>Actividad Grupal</h1>
+    
+    <h2>User Card</h2>
+>>>>>>> 6dd5efe84bc7518c00c334b230996bd7e2f42e26
     <UserCard
     name="Gerson Benjamin Benitez"
     email="benjamin_benitez@outlook.com"
@@ -27,6 +39,7 @@ function App() {
       <TaskList tasks={tasks} />
     </div>
     
+    <h2>Custom Button</h2>
     <CustomButton
       btnText="Click Me"
       variant="primary"
@@ -34,6 +47,7 @@ function App() {
       onClick={() => alert('Button clicked!')}
     />
 
+    <h2>Producto</h2>
     <Producto 
       name="Mesa de Pino"
       price={25000}

@@ -1,6 +1,6 @@
 //Producto.jsx
 
-export function Producto({ name, price, discount=0, category }) {
+function Producto({ name, price, discount=0, category }) {
 
     const precioConDescuento = price*(1-discount/100)
     
@@ -23,3 +23,5 @@ export function Producto({ name, price, discount=0, category }) {
         </div>
     )
 }
+
+export default Producto
